@@ -63,3 +63,30 @@ Now ping from one namespace to another namespace.
 $ sudo ip netns exec red ping 192.168.15.2
 ```
 ![image info](./ping.jpeg)
+
+## More command network namespace
+
+Show ip adress of namespace
+
+```bash
+$ sudo ip netns exec red ip address
+```
+
+Show ip link of namespace
+
+```bash
+$ sudo ip netns exec red ip link
+```
+Enter a single namespace
+
+```bash
+$ sudo ip netns exec red bash
+```
+
+Show arp table of a namespace
+
+```bash
+$ sudo ip netns exec red arp
+```
+
+# Thanks
