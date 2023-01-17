@@ -8,7 +8,7 @@ In linux root namespace run following command
 $ sudo ip netns add red
 ```
 After run this command linux create a namespce name with red
-<img align="left" src="rednamespace.png">
+<img align="right" src="rednamespace.png">
 <!-- ![image info](./rednamespace.png) -->
 
 Let's create another namespace:
@@ -17,7 +17,7 @@ $ sudo ip netns add blue
 ```
 
 After run this command linux create a namespce name with blue
-<img align="left" src="bluenamespace.png">
+<img align="right" src="bluenamespace.png">
 
 Now it's time to show all namespace we created. Run following command to show namespace
 
